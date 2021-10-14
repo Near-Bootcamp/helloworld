@@ -150,7 +150,7 @@ To deploy smart contract, we will be using `near-cli`. We need to install:
 yarn global add near-cli
 ```
 
-To deploy smart on your account from CLI, we need to store keys for your account locally. To do that run following command in terminal:
+To deploy smart contract from CLI, we need to store keys for your account locally. To do that run following command in terminal:
 ```bash
 near login
 ```
