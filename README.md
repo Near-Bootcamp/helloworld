@@ -150,11 +150,11 @@ To deploy smart contract, we will be using `near-cli`. We need to install:
 yarn global add near-cli
 ```
 
-First step for deploying is to login using `near-cli`:
+To deploy smart on your account from CLI, we need to store keys for your account locally. To do that run following command in terminal:
 ```bash
 near login
 ```
-This will store your testnet credentials on your machine.
+This will redirect you to NEAR Wallet requesting full access to your account. From here, select which account you would like an access key to. Then click allow, you will be asked to confirm this authorization by entering the account name. Once complete, you will now have your Access Key stored locally.
 
 Next step, deploy the smart contract (replace YOUR_ACCOUNT_ID with your testnet account, ex. arwin.testnet):
 ```bash
